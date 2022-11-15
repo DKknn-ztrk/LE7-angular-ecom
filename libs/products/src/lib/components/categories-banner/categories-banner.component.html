@@ -1,0 +1,17 @@
+<div class="categories-banner">
+    <h3>Categories</h3>
+    <div class="grid">
+        <!-- TODO: Aynı bu şekil ama çıktısını slider şeklinde vericek https://www.zeydankids.com/ class="owl-carousel owl-theme owl-loaded owl-drag"
+        style="transform: translate3d(-2538px, 0px, 0px); transition: all 3.5s ease 0s; width: 5713px;"
+         https://www.youtube.com/results?search_query=owl.carousel.js+ecommerce+product+listing  -->
+      <div class="col-2" *ngFor="let category of categories">
+        <div class="category" [routerLink]="'/category/'+ category.id" [ngStyle]="{backgroundColor: category.color}">
+          <div class="category-icon">
+            <i class="pi pi-{{category.icon}}"></i>
+          </div>
+          <div class="category-name">{{category.name}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

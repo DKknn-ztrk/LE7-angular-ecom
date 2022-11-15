@@ -1,3 +1,8 @@
 {
+  "tabWidth": 4, // ders 82 dk 8:30
+  "printWidth": 160, // ders 82 dk 8:30
+  "semi": true, // ders 82 dk 8:30
+  "arrowParens": "always", // ders 82 dk 8:30
+  "trailingComma": "none", // ders 82 dk 8:30
   "singleQuote": true
 }

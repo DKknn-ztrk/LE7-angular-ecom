@@ -1,0 +1,27 @@
+<div class="admin-sidebar">
+    <div class="logo">
+        <a href="/"><img src="/assets/images/logo.png" alt="logo"></a>
+    </div>
+    <div class="links">
+        <ul>
+            <li>
+                <a routerLink="/"><i class="pi pi-home"></i> Panel</a>
+            </li>
+            <li>
+                <a routerLink="/products"><i class="pi pi-briefcase"></i> Ürünler</a>
+            </li>
+            <li>
+                <a routerLink="/categories"><i class="pi pi-list"></i> Kategoriler</a>
+            </li>
+            <li>
+                <a routerLink="/orders"><i class="pi pi-shopping-cart"></i> Siparişler</a>
+            </li>
+            <li>
+                <a routerLink="/users"><i class="pi pi-users"></i> Kullanıcılar</a>
+            </li>
+            <li class="logout" (click)="logoutUser()">
+                <a><i class="pi pi-sign-out"></i> Çıkış</a>
+            </li>
+        </ul>
+    </div>
+</div>
